@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>189</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:orange;</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>83</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="Create">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:silver;
+width:100px;
+height:75px;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+font-color:white;
+font-family:English157 BT;
+}
+
+QPushButton:hover{
+background-color:blue;
+color:yellow;
+}
+
+QPushButton:pressed{
+background-color:pink;
+}</string>
+      </property>
+      <property name="text">
+       <string>Create</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Find">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:silver;
+width:100px;
+height:75px;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+font-color:white;
+font-family:English157 BT;
+}
+
+QPushButton:hover{
+background-color:blue;
+color:yellow;
+}
+
+QPushButton:pressed{
+background-color:pink;
+}</string>
+      </property>
+      <property name="text">
+       <string>Find</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Edit">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:silver;
+width:100px;
+height:75px;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+font-color:white;
+font-family:English157 BT;
+}
+
+QPushButton:hover{
+background-color:blue;
+color:yellow;
+}
+
+QPushButton:pressed{
+background-color:pink;
+}</string>
+      </property>
+      <property name="text">
+       <string>Edit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Delete">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:silver;
+width:100px;
+height:75px;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+font-color:white;
+font-family:English157 BT;
+}
+
+QPushButton:hover{
+background-color:blue;
+color:yellow;
+}
+
+QPushButton:pressed{
+background-color:pink;
+}</string>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Exit">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color:silver;
+width:100px;
+height:75px;
+font-size:25px;
+font-weight:bold;
+text-align:center;
+font-color:white;
+font-family:English157 BT;
+}
+
+QPushButton:hover{
+background-color:blue;
+color:yellow;
+}
+
+QPushButton:pressed{
+background-color:pink;
+}</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>571</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
